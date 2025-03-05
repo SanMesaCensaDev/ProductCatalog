@@ -1,5 +1,5 @@
-export default[
-    { id: 1, name: 'Producoto 1', description: 'descripcion del producto 1', price: 50000},
-    { id: 2, name: 'Producoto 2', description: 'descripcion del producto 1', price: 60000},
-    { id: 3, name: 'Producoto 3', description: 'descripcion del producto 1', price: 20000},
-]
+export default [
+    { id: 1, name: 'Producto 1', description: 'Descripción del producto 1', price: 10 },
+    { id: 2, name: 'Producto 2', description: 'Descripción del producto 2', price: 20 },
+    { id: 3, name: 'Producto 3', description: 'Descripción del producto 3', price: 30 },
+  ];
