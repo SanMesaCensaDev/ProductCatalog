@@ -10,7 +10,7 @@ export default function HomeScreen() {
         <View style={{ flex:1, padding: 20}}>
             <FlatList
                 data={products}
-                keyExtracto={(item) => item.id.toString()}
+                keyExtractor={(item) => item.id.toString()}
                 renderItem={({ item}) => (
                     <TouchableOpacity onPress={() => navigation.navigate('ProductDetail', { product:item })}>
                         <Text style={{ fontSize: 18, marginVertical: 10 }}>{item.name}</Text>
